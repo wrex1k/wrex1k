@@ -1,3 +1,4 @@
+```java
 public class Pyramid {
   int floors;
   char znak = '*';
@@ -43,6 +44,7 @@ public class Pyramid {
   }
   
 }
+```
 
 <!--
 **wrex1k/wrex1k** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
