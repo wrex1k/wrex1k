@@ -1,11 +1,16 @@
 from flask import Flask, Response
 from datetime import datetime
+import os
 
 app = Flask(__name__)
 
 @app.route("/")
-def home():
-    return "Welcome to the dynamic SVG terminal!"
+def index():
+    return """
+    <h1>Welcome to the dynamic terminal SVG!</h1>
+    <p><a href="/terminal.svg" target="_blank">Open terminal.svg</a></p>
+    <img src="/terminal.svg" alt="Terminal SVG">
+    """
 
 @app.route("/terminal.svg")
 def terminal_svg():
@@ -38,4 +43,5 @@ def terminal_svg():
     return Response(svg, mimetype='image/svg+xml')
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
