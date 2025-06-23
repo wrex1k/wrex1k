@@ -3,6 +3,10 @@ from datetime import datetime
 
 app = Flask(__name__)
 
+@app.route("/")
+def home():
+    return "Welcome to the dynamic SVG terminal!"
+
 @app.route("/terminal.svg")
 def terminal_svg():
     current_time = datetime.now().strftime("%H:%M:%S")
