@@ -38,54 +38,52 @@ SQL_PRACTICE = [
 ]
 
 def build_svg(date_str, task, query):
-    max_line_length = 40
+    max_line_length = 50
     words = task.split()
     lines = []
     current_line = ""
 
     for word in words:
         if len(current_line) + len(word) + 1 <= max_line_length:
-            if current_line != "":
-                current_line += " "
-            current_line += word
+            current_line += (" " if current_line else "") + word
         else:
             lines.append(current_line)
             current_line = word
     if current_line:
         lines.append(current_line)
 
-    task_svg_lines = ""
+    task_svg = ""
     for i, line in enumerate(lines):
-        dy = 20 if i > 0 else 0
-        task_svg_lines += f'<tspan x="100" dy="{dy}">{line}</tspan>\n'
+        task_svg += f'<tspan x="20" dy="{20 if i > 0 else 0}">{line}</tspan>\n'
+
+    query_lines = query.split("\n")
+    query_svg = ""
+    for i, line in enumerate(query_lines):
+        query_svg += f'<tspan x="20" dy="{20 if i > 0 else 0}">{line}</tspan>\n'
 
     svg = f"""<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .terminal {{ fill:#1e1e1e; stroke:#333; rx:10; ry:10; }}
-    .titlebar {{ fill:#2d2d2d; }}
-    .button {{ r:6; }}
-    .text {{ font-family: monospace; fill:#fff; font-size:14px; white-space: pre; }}
-    .date {{ font-family: monospace; fill:#666; font-size:14px; }}
-  </style>
-
-  <rect class="terminal" width="500" height="300" rx="10" ry="10"/>
-  <rect class="titlebar" width="500" height="30" rx="10" ry="10"/>
-  <circle class="button" cx="15" cy="15" fill="#ff5f56"/>
-  <circle class="button" cx="35" cy="15" fill="#ffbd2e"/>
-  <circle class="button" cx="55" cy="15" fill="#27c93f"/>
-
-  <text class="text small" x="20" y="50">Microsoft Windows [Version 10.0.26100.4351]</text>
-  <text class="text small" x="20" y="70">(c) Microsoft Corporation. All rights reserved.</text>
-
-  <text class="text" x="20" y="100">C:\\Users\\wrex1k&gt; python sql_practice.py</text>
-
-  <text class="date" x="20" y="130">{date_str}</text>
-  <text class="text" x="85" y="130">|{task_svg_lines}</text>
-
-  <text class="text" x="20" y="190">C:\\Users\\wrex1k&gt; SQL query to complete:</text>
+  <rect width="500" height="300" rx="10" ry="10" fill="#1e1e1e" stroke="#333"/>
+  <rect width="500" height="30" rx="10" ry="10" fill="#2d2d2d"/>
   
-  <text class="text" x="20" y="210"><tspan x="20" dy="0">{query.replace('\n', '<tspan x=\'20\' dy=\'20\'>')}</tspan></text>
+  <circle cx="15" cy="15" r="6" fill="#ff5f56"/>
+  <circle cx="35" cy="15" r="6" fill="#ffbd2e"/>
+  <circle cx="55" cy="15" r="6" fill="#27c93f"/>
 
+  <text x="20" y="50" font-family="monospace" fill="#999" font-size="12px">
+    {date_str} | python sql_practice.py
+  </text>
+
+  <text x="20" y="80" font-family="monospace" fill="#fff" font-size="14px">
+    {task_svg}
+  </text>
+
+  <text x="20" y="{100 + 20 * len(lines)}" font-family="monospace" fill="#fff" font-size="14px">
+    SQL query to complete:
+  </text>
+
+  <text x="20" y="{120 + 20 * len(lines)}" font-family="monospace" fill="#fff" font-size="14px">
+    {query_svg}
+  </text>
 </svg>"""
     return svg
 
