@@ -11,7 +11,7 @@ SQL_PRACTICE = [
         "SELECT name, email\nFROM users\nWHERE active = ___\nORDER BY ___ ASC;"
     ),
     (
-        "Write a query to update the price of all products in the 'Electronics' category by reducing it by 10%.",
+        'Write a query to update the price of all products in the "Electronics" category by reducing it by 10%.',
         "UPDATE products\nSET price = price * 0.9\nWHERE category = '___';"
     ),
     (
@@ -37,7 +37,6 @@ SQL_PRACTICE = [
 ]
 
 def build_svg(date_str, task, query):
-    # Rozdelíme task na viaceré riadky po cca 40 znakoch pre zalomenie v SVG
     max_line_length = 40
     words = task.split()
     lines = []
@@ -92,7 +91,7 @@ def build_svg(date_str, task, query):
 @app.route("/")
 def root_svg():
     now = datetime.now()
-    date_str = now.strftime("%-d.%-m")  # napr. 23.6 bez vedúcich núl
+    date_str = now.strftime("%-d.%-m")
     task, query = random.choice(SQL_PRACTICE)
     svg = build_svg(date_str, task, query)
     return Response(svg, mimetype="image/svg+xml")
