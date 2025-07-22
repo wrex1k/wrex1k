@@ -2,6 +2,7 @@ from flask import Flask, Response
 from datetime import datetime
 import os
 import random
+import pytz
 
 app = Flask(__name__)
 
@@ -90,8 +91,9 @@ def build_svg(date_str, task, query):
 
 @app.route("/")
 def root_svg():
-    now = datetime.now()
-    date_str = now.strftime("%-d.%-m")
+    tz = pytz.timezone("Europe/Bratislava")
+    now = datetime.now(tz)
+    date_str = now.strftime("%-d.%-m.%Y | %H:%M:%S")
     task, query = random.choice(SQL_PRACTICE)
     svg = build_svg(date_str, task, query)
     return Response(svg, mimetype="image/svg+xml")
