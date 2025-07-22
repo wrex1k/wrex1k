@@ -12,7 +12,7 @@
   
   <text x="20" y="80" font-family="monospace" fill="#fff" font-size="14px">
     <tspan x="20" dy="0">Task: Write a query to update the price of all products</tspan>
-    <tspan x="20" dy="20">in the 'Electronics' category by reducing it by 10%.</tspan>
+    <tspan x="20" dy="20">in the "Electronics" category by reducing it by 10%.</tspan>
   </text>
   
   <text x="20" y="130" font-family="monospace" fill="#fff" font-size="14px">
