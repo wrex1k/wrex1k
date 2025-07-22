@@ -9,31 +9,31 @@ app = Flask(__name__)
 SQL_PRACTICE = [
     (
         "Write a query to select the name and email from the users table where active is 1, ordered by name ascending.",
-        "SELECT name, email\nFROM users\nWHERE active = ___\nORDER BY ___ ASC;"
+        "SELECT name, email\nFROM users\nWHERE active = ___\nORDER BY name ___;"
     ),
     (
-        'Write a query to update the price of all products in the "Electronics" category by reducing it by 10%.',
+        "Write a query to update the price of all products in the ___ category by reducing it by 10%.",
         "UPDATE products\nSET price = price * 0.9\nWHERE category = '___';"
     ),
     (
-        "Write a query to delete all sessions that have been inactive for more than 30 days.",
+        "Write a query to delete all sessions that have been inactive for more than ___ days.",
         "DELETE FROM sessions\nWHERE last_activity < NOW() - INTERVAL ___ DAY;"
     ),
     (
-        "Write a query to insert a login action into the logs table for user id 42.",
-        "INSERT INTO logs (user_id, action)\nVALUES (42, '___');"
+        "Write a query to insert a ___ action into the logs table for user id ___.",
+        "INSERT INTO logs (user_id, action)\nVALUES (___, '___');"
     ),
     (
-        "Write a query to select employee names and salaries in the Sales department ordered by salary descending.",
-        "SELECT name, salary\nFROM employees\nWHERE department = '___'\nORDER BY salary DESC;"
+        "Write a query to select employee names and salaries in the ___ department ordered by salary descending.",
+        "SELECT name, salary\nFROM employees\nWHERE department = '___'\nORDER BY salary ___;"
     ),
     (
-        "Write a query to find all orders placed in the last 7 days, ordered by order date descending.",
-        "SELECT *\nFROM orders\nWHERE order_date >= NOW() - INTERVAL ___ DAY\nORDER BY order_date DESC;"
+        "Write a query to find all orders placed in the last ___ days, ordered by order date descending.",
+        "SELECT *\nFROM orders\nWHERE order_date >= NOW() - INTERVAL ___ DAY\nORDER BY order_date ___;"
     ),
     (
-        "Write a query to count the number of active users grouped by their country.",
-        "SELECT country, COUNT(*)\nFROM users\nWHERE active = 1\nGROUP BY country;"
+        "Write a query to count the number of active users grouped by their ___.",
+        "SELECT ___, COUNT(*)\nFROM users\nWHERE active = 1\nGROUP BY ___;"
     ),
 ]
 
