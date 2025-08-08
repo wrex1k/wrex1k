@@ -3,6 +3,7 @@
 
 <!-- <img src="https://raw.githubusercontent.com/wrex1k/wrex1k/main/terminal.svg" width="980"/> -->
 
+![ASCII Animation](./ascii_animation.svg)
 
 <img src="https://wrex1k.onrender.com/" width="980"/>
 
