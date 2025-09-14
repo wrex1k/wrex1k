@@ -13,7 +13,7 @@
 🌐  Interested in: open source projects </br>
 🌲  Fun fact: I love nature </br>
 
-</br></br></br></br></br></br></br></br></br></br>
+</br></br>
 
 <!--Languages and Tools-->
 ![Languages and Tools](https://img.shields.io/badge/Languages%20and%20Tools-20302F?style=for-the-badge)
