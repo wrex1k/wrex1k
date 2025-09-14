@@ -37,6 +37,7 @@
 <a href="https://marketplace.visualstudio.com/items?itemName=yechunan.json-color-token" target="_blank"> <img align="left" src="https://yechunan.gallerycdn.vsassets.io/extensions/yechunan/json-color-token/1.3.3/1693033066304/Microsoft.VisualStudio.Services.Icons.Default" alt="json-color-token" height="42px"/> </a>
 <a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/logo.png" alt="material-icon-theme" height="42px"/> </a>
 <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank"> <img align="left" src="https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/11.0.0/1723648421534/Microsoft.VisualStudio.Services.Icons.Default" alt="prettier" height="42px"/> </a>
+<a href="https://marketplace.visualstudio.com/items?itemName=wrex1k.weecurly-theme" target="_blank"> <img align="left" src="https://wrex1k.gallerycdn.vsassets.io/extensions/wrex1k/weecurly-theme/1.0.0/1757845369495/Microsoft.VisualStudio.Services.Icons.Default" alt="weecurly" height="42px"/> </a>
 
 
 </br></br></br></br>
