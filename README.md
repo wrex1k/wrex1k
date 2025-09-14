@@ -5,7 +5,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=4000&pause=1000&color=76B1AD&center=true&vCenter=true&repeat=false&width=1200&lines=%F0%9F%91%8B+Hey+there!+I+am+wrex1k..+%E2%9C%A8+glad+you+stopped+on+my+profile+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <!--Cool Buttons-->
-[![W Dark Theme - INSTALL](https://img.shields.io/badge/W%20Dark%20Theme-INSTALL-20302F?style=for-the-badge&labelColor=000000&logoColor=ffffff)](https://marketplace.visualstudio.com/items?itemName=wrex1k.w-dark-theme)
+[![W Dark Theme - INSTALL](https://img.shields.io/badge/W%20Dark%20Theme-INSTALL-20302F?style=for-the-badge&labelColor=000000&logoColor=ffffff)](https://marketplace.visualstudio.com/items?itemName=wrex1k.weecurly-theme)
 
 <!--Description-->
 💻  Projects: Check out my repositories and cool experiments!</br>
