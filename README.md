@@ -10,7 +10,6 @@
 <!--Description-->
 💻  Projects: Check out my repositories and cool experiments!</br>
 📚  Currently learning: literally everything 😆 </br>
-🌐  Interested in: open source projects </br>
 🌲  Fun fact: I love nature </br>
 
 </br></br>
