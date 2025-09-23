@@ -12,6 +12,8 @@
 📚 **Currently learning:** Honestly… everything 😆  
 🌲 **Fun fact:** I'm a nature lover 🌿
 
+<br>
+
 <!--Languages and Tools-->
 ![Languages and Tools](https://img.shields.io/badge/Languages%20and%20Tools-20302F?style=for-the-badge)
 
@@ -30,24 +32,19 @@
 <!--Extensions VSC-->
 ![Extensions for VSC that deserve a mention](https://img.shields.io/badge/Extensions%20for%20VSC%20that%20deserve%20a%20mention-20302F?style=for-the-badge)
 
-<a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments" target="_blank"> <img align="left" src="https://aaron-bond.gallerycdn.vsassets.io/extensions/aaron-bond/better-comments/3.0.2/1659144495902/Microsoft.VisualStudio.Services.Icons.Default" alt="better-comments" height="42px"/> </a>
-<a href="https://marketplace.visualstudio.com/items?itemName=yechunan.json-color-token" target="_blank"> <img align="left" src="https://yechunan.gallerycdn.vsassets.io/extensions/yechunan/json-color-token/1.3.3/1693033066304/Microsoft.VisualStudio.Services.Icons.Default" alt="json-color-token" height="42px"/> </a>
-<a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/logo.png" alt="material-icon-theme" height="42px"/> </a>
-<a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank"> <img align="left" src="https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/11.0.0/1723648421534/Microsoft.VisualStudio.Services.Icons.Default" alt="prettier" height="42px"/> </a>
-<a href="https://marketplace.visualstudio.com/items?itemName=wrex1k.weecurly-theme" target="_blank"> <img align="left" src="https://wrex1k.gallerycdn.vsassets.io/extensions/wrex1k/weecurly-theme/1.0.1/1757928184833/Microsoft.VisualStudio.Services.Icons.Default" alt="weecurly" height="42px" style="border-radius: 8px;"></a>
-
+<a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments" target="_blank"> <img align="left" src="https://aaron-bond.gallerycdn.vsassets.io/extensions/aaron-bond/better-comments/3.0.2/1659144495902/Microsoft.VisualStudio.Services.Icons.Default" alt="better-comments" height="26px" style="padding-right:10px;"/> </a>
+<a href="https://marketplace.visualstudio.com/items?itemName=yechunan.json-color-token" target="_blank"> <img align="left" src="https://yechunan.gallerycdn.vsassets.io/extensions/yechunan/json-color-token/1.3.3/1693033066304/Microsoft.VisualStudio.Services.Icons.Default" alt="json-color-token" height="26px" style="padding-right:10px;"/> </a>
+<a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/logo.png" alt="material-icon-theme" height="26px" style="padding-right:10px;"/> </a>
+<a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank"> <img align="left" src="https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/11.0.0/1723648421534/Microsoft.VisualStudio.Services.Icons.Default" alt="prettier" height="26px" style="padding-right:10px;"/> </a>
+<a href="https://marketplace.visualstudio.com/items?itemName=wrex1k.weecurly-theme" target="_blank"> <img align="left" src="https://wrex1k.gallerycdn.vsassets.io/extensions/wrex1k/weecurly-theme/1.0.1/1757928184833/Microsoft.VisualStudio.Services.Icons.Default" alt="weecurly" height="26px" style="padding-right:10px;border-radius:8px;"/> </a>
 
 </br></br></br></br>
 
-  
 <details>
   <summary>:zap: Recent GitHub Activity</summary>
   
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
-
-</details>
-
 
 </details>
 
