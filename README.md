@@ -28,6 +28,7 @@
 
 <details>
   <summary>:zap: Recent GitHub Activity</summary>
+  </br>
   
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
@@ -36,6 +37,6 @@
 
 <details>
   <summary>:zap: GitHub Stats</summary>
-
+  </br>
   <img align="left" alt="wrex1k's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=wrex1k&show_icons=true&hide_border=false&title_color=24ABA2&icon_color=FFE430&bg_color=09131B&text_color=ffffff&border_color=0c1a25" />
 </details>
