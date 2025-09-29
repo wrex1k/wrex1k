@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="160" viewBox="0 0 800 160" role="img" aria-label="Terminal-style GitHub bio">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0d1017"/>
+
+  <!-- Styles -->
+  <style>
+    <![CDATA[
+      .mono { font-family: Menlo, Monaco, "Courier New", monospace; font-size:18px; fill:#24ABA2; }
+      .prompt { font-weight:700; }
+    ]]>
+  </style>
+
+  <!-- Prompt -->
+  <text x="18" y="36" class="mono"><tspan class="prompt">wrex1k@github:~$ </tspan></text>
+
+  <!-- Output -->
+  <text x="18" y="64" class="mono">🛠️ Building small projects in <tspan font-weight="700">Python</tspan> &amp; <tspan font-weight="700">Java</tspan></text>
+  <text x="18" y="92" class="mono">🔐 Currently diving into <tspan font-weight="700">backend dev</tspan> &amp; <tspan font-weight="700">security</tspan></text>
+  <text x="18" y="120" class="mono">🌿 When offline, I recharge in <tspan font-weight="700">nature</tspan></text>
+</svg>
