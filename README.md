@@ -1,5 +1,5 @@
 <!--Typing Title-->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=60&duration=3000&pause=1000&color=24ABA2&center=false&vCenter=true&repeat=false&width=2550&height=200&lines=+%E2%9C%A8+Hey+there!+%F0%9F%91%8B+I+am+wrex1k+%E2%9C%A8+glad+you+stopped+on+my+profile+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Courier+New&size=60&duration=3000&pause=1000&color=24ABA2&center=false&vCenter=true&repeat=false&width=2550&height=200&lines=+%E2%9C%A8+Hey+there!+%F0%9F%91%8B+I+am+wrex1k+%E2%9C%A8+glad+you+stopped+on+my+profile+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <!--Cool Buttons-->
 [![WeeCurly - INSTALL](https://img.shields.io/badge/WeeCurly%20Theme-INSTALL-20302F?style=for-the-badge&labelColor=000000&logoColor=ffffff)](https://marketplace.visualstudio.com/items?itemName=wrex1k.weecurly-theme)
