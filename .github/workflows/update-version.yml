@@ -16,20 +16,26 @@ jobs:
       - name: Show current version (debug)
         run: |
           echo "Current version found in README:"
-          grep -oE "v[0-9]{4}\.[0-9]{2}" README.md || true
+          grep -oE "v[0-9]{4}\.[0-9]{2}" README.md || echo "No version found"
 
       - name: Update version in README
         run: |
           YEAR=$(date +'%Y')
           MONTH=$(date +'%m')
-          sed -i -E "s/v[[:space:]]?[0-9]{4}\.[0-9]{2}/v${YEAR}.${MONTH}/g" README.md
+          echo "Updating to v${YEAR}.${MONTH}..."
+          sed -i -E "s/v[[:space:]]?[0-9]{4}\.[0-9]{1,2}/v${YEAR}.${MONTH}/g" README.md
           echo "Updated to v${YEAR}.${MONTH}"
-          grep -oE "v[0-9]{4}\.[0-9]{2}" README.md || true
+          echo "After update:"
+          grep -o "v[0-9][0-9][0-9][0-9]\.[0-9][0-9]" README.md || echo "No version found after update"
 
       - name: Commit and push changes
         run: |
           git config user.name "readme version sync"
           git config user.email "41898282+readme-version-sync[bot]@users.noreply.github.com"
           git add README.md
-          git diff --cached --quiet || git commit -m "chore: bump version to v$(date +'%Y.%m')"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: bump version to v$(date +'%Y.%m')"
+            git push
+          else
+            echo "No changes to commit."
+          fi
