@@ -1,16 +1,18 @@
-## Hi there 👋
+# 👋 Hey, I'm **wrex1k**
 
-<!--
-**wrex1k/wrex1k** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br>
 
-Here are some ideas to get you started:
+<p align="center">
+  <em>This profile is currently under maintenance
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br>
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+<br>
+
+<p align="center">
+  <sub>🧩 Designed with care by <b>wrex1k</b> · v2025.8</sub>
+</p>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="860" height="320" viewBox="0 0 860 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="WakaTime (last 7 days)">
+  <title>WakaTime (last 7 days)</title>
+  <defs>
+    <style>
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes barGrow {
+        from { width: 0; }
+      }
+      .card { 
+        fill: #0D1117;
+      }
+      .title { 
+        fill: #ffffff; 
+        font: 600 22px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+        letter-spacing: -0.5px;
+      }
+      .subtitle { 
+        fill: #a5b4fc; 
+        font: 400 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+      }
+      .label { 
+        fill: #e2e8f0; 
+        font: 400 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+      }
+      .value { 
+        fill: #cbd5e1; 
+        font: 400 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+      }
+      .percent {
+        fill: #a5b4fc;
+        font: 400 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+      }
+      .bar-bg { 
+        fill: #1e293b;
+        opacity: 0.4;
+      }
+      .bar { 
+        fill: url(#barGradient);
+        animation: barGrow 1.2s ease-out;
+      }
+      .icon-circle {
+        fill: url(#iconGradient);
+        opacity: 0.15;
+      }
+      .footer { 
+        fill: #64748b; 
+        font: 400 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+      }
+      .lang-icon {
+        animation: fadeIn 0.6s ease-out backwards;
+      }
+      .row-1 { animation-delay: 0.1s; }
+      .row-2 { animation-delay: 0.2s; }
+      .row-3 { animation-delay: 0.3s; }
+      .row-4 { animation-delay: 0.4s; }
+      .row-5 { animation-delay: 0.5s; }
+    </style>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161B22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="barGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#facc15;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#818cf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Card -->
+  <rect class="card" x="0.5" y="0.5" rx="16" ry="16" width="859" height="319" />
+  
+  <!-- Header -->
+  <g>
+    <text class="subtitle" x="28" y="45">Last 7 days · 39 hrs 59 mins total</text>
+    <line x1="28" y1="55" x2="240" y2="55" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Stats Grid -->
+  <g transform="translate(28, 100)">
+    <!-- HTML -->
+    <g class="lang-icon row-1">
+      <circle cx="6" cy="8" r="4" fill="#e34c26"/>
+      <text class="label" x="18" y="13">HTML</text>
+      <text class="value" x="140" y="13">26 hrs 33 mins</text>
+      <text class="percent" x="280" y="13">66.41%</text>
+      <rect class="bar-bg" x="360" y="2" width="444" height="12" rx="6" />
+      <rect class="bar" x="360" y="2" width="295" height="12" rx="6" />
+    </g>
+    
+    <!-- Java -->
+    <g class="lang-icon row-2" transform="translate(0, 36)">
+      <circle cx="6" cy="8" r="4" fill="#007396"/>
+      <text class="label" x="18" y="13">Java</text>
+      <text class="value" x="140" y="13">5 hrs 54 mins</text>
+      <text class="percent" x="280" y="13">14.80%</text>
+      <rect class="bar-bg" x="360" y="2" width="444" height="12" rx="6" />
+      <rect class="bar" x="360" y="2" width="65.7" height="12" rx="6" />
+    </g>
+    
+    <!-- SQL -->
+    <g class="lang-icon row-3" transform="translate(0, 72)">
+      <circle cx="6" cy="8" r="4" fill="#e38c00"/>
+      <text class="label" x="18" y="13">SQL</text>
+      <text class="value" x="140" y="13">3 hrs 8 mins</text>
+      <text class="percent" x="280" y="13">7.85%</text>
+      <rect class="bar-bg" x="360" y="2" width="444" height="12" rx="6" />
+      <rect class="bar" x="360" y="2" width="34.9" height="12" rx="6" />
+    </g>
+    
+    <!-- Python -->
+    <g class="lang-icon row-4" transform="translate(0, 108)">
+      <circle cx="6" cy="8" r="4" fill="#3b82f6"/>
+      <text class="label" x="18" y="13">Python</text>
+      <text class="value" x="140" y="13">1 hr 53 mins</text>
+      <text class="percent" x="280" y="13">4.72%</text>
+      <rect class="bar-bg" x="360" y="2" width="444" height="12" rx="6" />
+      <rect class="bar" x="360" y="2" width="21" height="12" rx="6" />
+    </g>
+    
+    <!-- Markdown -->
+    <g class="lang-icon row-5" transform="translate(0, 144)">
+      <circle cx="6" cy="8" r="4" fill="#8b5cf6"/>
+      <text class="label" x="18" y="13">Markdown</text>
+      <text class="value" x="140" y="13">1 hr 33 mins</text>
+      <text class="percent" x="280" y="13">3.88%</text>
+      <rect class="bar-bg" x="360" y="2" width="444" height="12" rx="6" />
+      <rect class="bar" x="360" y="2" width="17.2" height="12" rx="6" />
+    </g>
+  </g>
+  
+  <!-- Footer -->
+  <text class="footer" x="28" y="300">Updated automatically via WakaTime</text>
+</svg>
