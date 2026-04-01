@@ -14,5 +14,5 @@
 <br>
 
 <p align="center">
-  <sub>🧩 Designed with care by <b>wrex1k</b> · v2026.03</sub>
+  <sub>🧩 Designed with care by <b>wrex1k</b> · v2026.04</sub>
 </p>
