@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="430" viewBox="0 0 700 430" role="img" aria-label="Animated original Windows Command Prompt, SSH, whoami, ls, Git clone, nano about.json, save and exit">
+<defs>
+  <clipPath id="screen">
+    <rect x="6" y="6" width="688" height="418" rx="12"/>
+  </clipPath>
+  <style>text {
+  font-family: "Cascadia Mono", "Cascadia Code", "JetBrains Mono", "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-variant-ligatures: none;
+}
+.w { fill:#CCCCCC; }
+.green { fill:#FFFFFF; }
+.cyan { fill:#F0883E; }
+/* Same 700x430 Windows Command Prompt from the source, original nano preserved. */
+.blink { animation: origBlink 1s step-end infinite; }
+@keyframes origBlink { 0%,49.99% {opacity:1} 50%,100% {opacity:0} }
+.t{animation-duration:43s;animation-iteration-count:infinite;animation-timing-function:step-end;}
+
+@keyframes line_0{0%,0.0000%{opacity:0} 0.0000%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_1{0%,0.0000%{opacity:0} 0.0000%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_2{0%,0.3372%{opacity:0} 0.3488%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes move_mask_2{0%,2.5581%{transform:translateX(0)} 2.5628%{transform:translateX(0);animation-timing-function:steps(53,end)} 11.1628%,100%{transform:translateX(381.60px)}}
+
+@keyframes cursor_2_kf{0%,2.5465%{opacity:0;transform:translateX(0)} 2.5581%{opacity:1;transform:translateX(0);animation-timing-function:steps(53,end)} 11.1628%{opacity:1;transform:translateX(381.60px)} 11.1860%,100%{opacity:0;transform:translateX(381.60px)}}
+
+@keyframes line_3{0%,12.1977%{opacity:0} 12.2093%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_4{0%,12.5930%{opacity:0} 12.6047%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes move_mask_4{0%,13.1395%{transform:translateX(0)} 13.1442%{transform:translateX(0);animation-timing-function:steps(7,end)} 14.7674%,100%{transform:translateX(50.40px)}}
+
+@keyframes cursor_4_kf{0%,13.1279%{opacity:0;transform:translateX(0)} 13.1395%{opacity:1;transform:translateX(0);animation-timing-function:steps(7,end)} 14.7674%{opacity:1;transform:translateX(50.40px)} 14.7907%,100%{opacity:0;transform:translateX(50.40px)}}
+
+@keyframes line_5{0%,16.1512%{opacity:0} 16.1628%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_6{0%,16.5465%{opacity:0} 16.5581%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes move_mask_6{0%,16.9302%{transform:translateX(0)} 16.9349%{transform:translateX(0);animation-timing-function:steps(3,end)} 17.9070%,100%{transform:translateX(21.60px)}}
+
+@keyframes cursor_6_kf{0%,16.9186%{opacity:0;transform:translateX(0)} 16.9302%{opacity:1;transform:translateX(0);animation-timing-function:steps(3,end)} 17.9070%{opacity:1;transform:translateX(21.60px)} 17.9302%,100%{opacity:0;transform:translateX(21.60px)}}
+
+@keyframes line_7{0%,19.0116%{opacity:0} 19.0233%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_8{0%,20.9186%{opacity:0} 20.9302%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes move_mask_8{0%,21.3023%{transform:translateX(0)} 21.3070%{transform:translateX(0);animation-timing-function:steps(14,end)} 23.9535%,100%{transform:translateX(100.80px)}}
+
+@keyframes cursor_8_kf{0%,21.2907%{opacity:0;transform:translateX(0)} 21.3023%{opacity:1;transform:translateX(0);animation-timing-function:steps(14,end)} 23.9535%{opacity:1;transform:translateX(100.80px)} 23.9767%,100%{opacity:0;transform:translateX(100.80px)}}
+
+@keyframes line_9{0%,25.2907%{opacity:0} 25.3023%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes move_mask_9{0%,25.6512%{transform:translateX(0)} 25.6558%{transform:translateX(0);animation-timing-function:steps(47,end)} 32.4651%,100%{transform:translateX(338.40px)}}
+
+@keyframes cursor_9_kf{0%,25.6395%{opacity:0;transform:translateX(0)} 25.6512%{opacity:1;transform:translateX(0);animation-timing-function:steps(47,end)} 32.4651%{opacity:1;transform:translateX(338.40px)} 32.4884%,100%{opacity:0;transform:translateX(338.40px)}}
+
+@keyframes line_10{0%,33.4767%{opacity:0} 33.4884%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_11{0%,35.0581%{opacity:0} 35.0698%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_12{0%,36.6395%{opacity:0} 36.6512%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_13{0%,38.2209%{opacity:0} 38.2326%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_14{0%,39.8023%{opacity:0} 39.8140%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_15{0%,41.3837%{opacity:0} 41.3953%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_16{0%,44.1744%{opacity:0} 44.1860%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes move_mask_16{0%,44.6512%{transform:translateX(0)} 44.6558%{transform:translateX(0);animation-timing-function:steps(10,end)} 46.5581%,100%{transform:translateX(72.00px)}}
+
+@keyframes cursor_16_kf{0%,44.6395%{opacity:0;transform:translateX(0)} 44.6512%{opacity:1;transform:translateX(0);animation-timing-function:steps(10,end)} 46.5581%{opacity:1;transform:translateX(72.00px)} 46.5814%,100%{opacity:0;transform:translateX(72.00px)}}
+
+@keyframes line_17{0%,48.0116%{opacity:0} 48.0233%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes move_mask_17{0%,48.3721%{transform:translateX(0)} 48.3767%{transform:translateX(0);animation-timing-function:steps(16,end)} 51.5116%,100%{transform:translateX(115.20px)}}
+
+@keyframes cursor_17_kf{0%,48.3605%{opacity:0;transform:translateX(0)} 48.3721%{opacity:1;transform:translateX(0);animation-timing-function:steps(16,end)} 51.5116%{opacity:1;transform:translateX(115.20px)} 51.5349%,100%{opacity:0;transform:translateX(115.20px)}}
+
+@keyframes line_18{0%,75.2209%{opacity:0} 75.2326%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes move_mask_18{0%,75.5349%{transform:translateX(0)} 75.5395%{transform:translateX(0);animation-timing-function:steps(5,end)} 76.7907%,100%{transform:translateX(36.00px)}}
+
+@keyframes cursor_18_kf{0%,75.5233%{opacity:0;transform:translateX(0)} 75.5349%{opacity:1;transform:translateX(0);animation-timing-function:steps(5,end)} 76.7907%{opacity:1;transform:translateX(36.00px)} 76.8140%,100%{opacity:0;transform:translateX(36.00px)}}
+
+@keyframes line_19{0%,78.3140%{opacity:0} 78.3256%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_20{0%,79.8721%{opacity:0} 79.8837%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes line_21{0%,81.9651%{opacity:0} 81.9767%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes lastcursor{0%,81.9651%{opacity:0} 81.9767%,99.9977%{opacity:1} 100.0000%,100%{opacity:0}}
+
+@keyframes actualScroll{0%{transform:translateY(0)}75.2186%{transform:translateY(-0px)}75.2326%{transform:translateY(-18px)}78.3116%{transform:translateY(-18px)}78.3256%{transform:translateY(-36px)}79.8698%{transform:translateY(-36px)}79.8837%{transform:translateY(-54px)}81.9628%{transform:translateY(-72px)}81.9767%{transform:translateY(-90px)}100%{transform:translateY(-90px)}}
+
+.scrollLines{animation:actualScroll 43.0s steps(1,end) infinite}
+
+@keyframes nanoOriginal{0%,53.4651%{opacity:0} 53.4884%,72.4419%{opacity:1} 72.4651%,100%{opacity:0}}
+
+@keyframes dialogOriginal{0%,61.3721%{opacity:0} 61.3953%,65.1163%{opacity:1} 65.1395%,100%{opacity:0}}
+
+@keyframes wroteOriginal{0%,65.0930%{opacity:0} 65.1163%,69.0698%{opacity:1} 69.0930%,100%{opacity:0}}
+
+@keyframes keyOOriginal{0%,59.7442%{fill:#a1a1aa} 59.7674%,61.3721%{fill:#ffffff} 61.3953%,100%{fill:#a1a1aa}}
+
+@keyframes keyEnterOriginal{0%,63.6977%{fill:#a1a1aa} 63.7209%,65.0930%{fill:#ffffff} 65.1163%,100%{fill:#a1a1aa}}
+
+@keyframes keyXOriginal{0%,70.9070%{fill:#a1a1aa} 70.9302%,72.4186%{fill:#ffffff} 72.4419%,100%{fill:#a1a1aa}}
+
+.nano{animation-name:nanoOriginal} .dialog{animation-name:dialogOriginal} .wrote{animation-name:wroteOriginal}
+
+.keyO{animation-name:keyOOriginal}
+
+.keyEnter{animation-name:keyEnterOriginal}
+
+.keyX{animation-name:keyXOriginal}
+</style>
+<clipPath id="terminal-viewport"><rect x="7" y="36" width="686" height="350"/></clipPath></defs>
+
+<g>
+  <rect width="700" height="430" fill="#0D1116"/>
+  <g clip-path="url(#screen)">
+  <rect x="6" y="6" width="688" height="418" rx="12" fill="#0C0C0C"/>
+
+  <!-- Windows-style terminal title bar -->
+  <text x="18" y="23" fill="#CCCCCC" font-size="12" font-family="Segoe UI, Arial, sans-serif">Command Prompt</text>
+
+  <!-- Minimize -->
+  <g fill="none" stroke="#c8cdd4" stroke-width="1.2" stroke-linecap="square">
+    <path d="M 619 21 H 629"/>
+    <!-- Maximize -->
+    <rect x="649.5" y="12.5" width="10" height="10"/>
+    <!-- Close -->
+    <path d="M 680 13 L 690 23 M 690 13 L 680 23"/>
+  </g>
+
+  <!--Original Command Prompt design retained; terminal content merged from the uploaded SVG files.--><g clip-path="url(#terminal-viewport)"><g class="scrollLines"><g class="line_0" style="opacity:0;animation:line_0 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60 256.80 264.00 271.20 278.40 285.60 292.80 300.00 307.20 314.40 321.60" y="58" font-size="12" xml:space="preserve"><tspan class="w">Microsoft Windows [Version 10.0.26200.10066]</tspan></text></g><g class="line_1" style="opacity:0;animation:line_1 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60 256.80 264.00 271.20 278.40 285.60 292.80 300.00 307.20 314.40 321.60 328.80 336.00 343.20" y="76" font-size="12" xml:space="preserve"><tspan class="w">(c) Microsoft Corporation. All rights reserved.</tspan></text></g><g class="line_2" style="opacity:0;animation:line_2 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60 256.80 264.00 271.20 278.40 285.60 292.80 300.00 307.20 314.40 321.60 328.80 336.00 343.20 350.40 357.60 364.80 372.00 379.20 386.40 393.60 400.80 408.00 415.20 422.40 429.60 436.80 444.00 451.20 458.40 465.60 472.80 480.00" y="112" font-size="12" xml:space="preserve"><tspan class="w">C:\Users\wrex1k&gt;</tspan><tspan class="w">ssh -i "C:\Users\wrex1k\ssh.key" wrex1k@203.0.113.42</tspan></text><rect x="127.20" y="99" width="700" height="18" fill="#0C0C0C" class="mask_2" style="animation:move_mask_2 43.0s step-end infinite"/><g class="cursor_2" style="animation:cursor_2_kf 43.0s step-end infinite"><rect class="blink" x="127.20" y="101" width="7.2" height="14" fill="#e5e7eb"/></g></g><g class="line_3" style="opacity:0;animation:line_3 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60 256.80 264.00 271.20 278.40 285.60 292.80 300.00 307.20 314.40 321.60 328.80 336.00 343.20 350.40 357.60 364.80 372.00 379.20 386.40 393.60 400.80" y="130" font-size="12" xml:space="preserve"><tspan class="w">Last login: Wed Nov 18 18:50:15 2026 from 192.0.2.10</tspan></text></g><g class="line_4" style="opacity:0;animation:line_4 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40" y="148" font-size="12" xml:space="preserve"><tspan class="w">[</tspan><tspan class="green">wrex1k@home</tspan><tspan class="w"> </tspan><tspan class="cyan">~</tspan><tspan class="w">]$ </tspan><tspan class="w">whoami</tspan></text><rect x="134.40" y="135" width="700" height="18" fill="#0C0C0C" class="mask_4" style="animation:move_mask_4 43.0s step-end infinite"/><g class="cursor_4" style="animation:cursor_4_kf 43.0s step-end infinite"><rect class="blink" x="134.40" y="137" width="7.2" height="14" fill="#e5e7eb"/></g></g><g class="line_5" style="opacity:0;animation:line_5 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00" y="166" font-size="12" xml:space="preserve"><tspan class="w">wrex1k</tspan></text></g><g class="line_6" style="opacity:0;animation:line_6 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60" y="184" font-size="12" xml:space="preserve"><tspan class="w">[</tspan><tspan class="green">wrex1k@home</tspan><tspan class="w"> </tspan><tspan class="cyan">~</tspan><tspan class="w">]$ </tspan><tspan class="w">ls</tspan></text><rect x="134.40" y="171" width="700" height="18" fill="#0C0C0C" class="mask_6" style="animation:move_mask_6 43.0s step-end infinite"/><g class="cursor_6" style="animation:cursor_6_kf 43.0s step-end infinite"><rect class="blink" x="134.40" y="173" width="7.2" height="14" fill="#e5e7eb"/></g></g><g class="line_7" style="opacity:0;animation:line_7 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40" y="202" font-size="12" xml:space="preserve"><tspan class="cyan">docker  projects</tspan></text></g><g class="line_8" style="opacity:0;animation:line_8 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60" y="220" font-size="12" xml:space="preserve"><tspan class="w">[</tspan><tspan class="green">wrex1k@home</tspan><tspan class="w"> </tspan><tspan class="cyan">~</tspan><tspan class="w">]$ </tspan><tspan class="w">cd ~/projects</tspan></text><rect x="134.40" y="207" width="700" height="18" fill="#0C0C0C" class="mask_8" style="animation:move_mask_8 43.0s step-end infinite"/><g class="cursor_8" style="animation:cursor_8_kf 43.0s step-end infinite"><rect class="blink" x="134.40" y="209" width="7.2" height="14" fill="#e5e7eb"/></g></g><g class="line_9" style="opacity:0;animation:line_9 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60 256.80 264.00 271.20 278.40 285.60 292.80 300.00 307.20 314.40 321.60 328.80 336.00 343.20 350.40 357.60 364.80 372.00 379.20 386.40 393.60 400.80 408.00 415.20 422.40 429.60 436.80 444.00 451.20 458.40 465.60 472.80 480.00 487.20 494.40 501.60 508.80 516.00" y="238" font-size="12" xml:space="preserve"><tspan class="w">[</tspan><tspan class="green">wrex1k@home</tspan><tspan class="w"> </tspan><tspan class="cyan">~/projects</tspan><tspan class="w">]$ </tspan><tspan class="w">git clone https://github.com/wrex1k/wrex1k.git</tspan></text><rect x="192.00" y="225" width="700" height="18" fill="#0C0C0C" class="mask_9" style="animation:move_mask_9 43.0s step-end infinite"/><g class="cursor_9" style="animation:cursor_9_kf 43.0s step-end infinite"><rect class="blink" x="192.00" y="227" width="7.2" height="14" fill="#e5e7eb"/></g></g><g class="line_10" style="opacity:0;animation:line_10 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60" y="256" font-size="12" xml:space="preserve"><tspan class="w">Cloning into 'wrex1k'...</tspan></text></g><g class="line_11" style="opacity:0;animation:line_11 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60 256.80 264.00 271.20 278.40" y="274" font-size="12" xml:space="preserve"><tspan class="w">remote: Enumerating objects: 48, done.</tspan></text></g><g class="line_12" style="opacity:0;animation:line_12 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60 256.80 264.00 271.20 278.40 285.60 292.80 300.00 307.20 314.40 321.60 328.80" y="292" font-size="12" xml:space="preserve"><tspan class="w">remote: Counting objects: 100% (48/48), done.</tspan></text></g><g class="line_13" style="opacity:0;animation:line_13 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60 256.80 264.00 271.20 278.40 285.60 292.80 300.00 307.20 314.40 321.60 328.80 336.00 343.20 350.40" y="310" font-size="12" xml:space="preserve"><tspan class="w">remote: Compressing objects: 100% (31/31), done.</tspan></text></g><g class="line_14" style="opacity:0;animation:line_14 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60 256.80 264.00 271.20 278.40 285.60 292.80 300.00 307.20 314.40 321.60 328.80 336.00 343.20 350.40 357.60 364.80 372.00 379.20 386.40 393.60 400.80 408.00 415.20 422.40 429.60 436.80 444.00 451.20" y="328" font-size="12" xml:space="preserve"><tspan class="w">Receiving objects: 100% (48/48), 32.41 KiB | 2.16 MiB/s, done.</tspan></text></g><g class="line_15" style="opacity:0;animation:line_15 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60 256.80" y="346" font-size="12" xml:space="preserve"><tspan class="w">Resolving deltas: 100% (9/9), done.</tspan></text></g><g class="line_16" style="opacity:0;animation:line_16 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60" y="364" font-size="12" xml:space="preserve"><tspan class="w">[</tspan><tspan class="green">wrex1k@home</tspan><tspan class="w"> </tspan><tspan class="cyan">~/projects</tspan><tspan class="w">]$ </tspan><tspan class="w">cd wrex1k</tspan></text><rect x="192.00" y="351" width="700" height="18" fill="#0C0C0C" class="mask_16" style="animation:move_mask_16 43.0s step-end infinite"/><g class="cursor_16" style="animation:cursor_16_kf 43.0s step-end infinite"><rect class="blink" x="192.00" y="353" width="7.2" height="14" fill="#e5e7eb"/></g></g><g class="line_17" style="opacity:0;animation:line_17 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60 256.80 264.00 271.20 278.40 285.60 292.80 300.00 307.20 314.40 321.60 328.80 336.00 343.20" y="382" font-size="12" xml:space="preserve"><tspan class="w">[</tspan><tspan class="green">wrex1k@home</tspan><tspan class="w"> </tspan><tspan class="cyan">~/projects/wrex1k</tspan><tspan class="w">]$ </tspan><tspan class="w">nano about.json</tspan></text><rect x="242.40" y="369" width="700" height="18" fill="#0C0C0C" class="mask_17" style="animation:move_mask_17 43.0s step-end infinite"/><g class="cursor_17" style="animation:cursor_17_kf 43.0s step-end infinite"><rect class="blink" x="242.40" y="371" width="7.2" height="14" fill="#e5e7eb"/></g></g><g class="line_18" style="opacity:0;animation:line_18 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20 242.40 249.60 256.80 264.00" y="400" font-size="12" xml:space="preserve"><tspan class="w">[</tspan><tspan class="green">wrex1k@home</tspan><tspan class="w"> </tspan><tspan class="cyan">~/projects/wrex1k</tspan><tspan class="w">]$ </tspan><tspan class="w">exit</tspan></text><rect x="242.40" y="387" width="700" height="18" fill="#0C0C0C" class="mask_18" style="animation:move_mask_18 43.0s step-end infinite"/><g class="cursor_18" style="animation:cursor_18_kf 43.0s step-end infinite"><rect class="blink" x="242.40" y="389" width="7.2" height="14" fill="#e5e7eb"/></g></g><g class="line_19" style="opacity:0;animation:line_19 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00" y="418" font-size="12" xml:space="preserve"><tspan class="w">logout</tspan></text></g><g class="line_20" style="opacity:0;animation:line_20 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00 127.20 134.40 141.60 148.80 156.00 163.20 170.40 177.60 184.80 192.00 199.20 206.40 213.60 220.80 228.00 235.20" y="436" font-size="12" xml:space="preserve"><tspan class="w">Connection to 203.0.113.42 closed.</tspan></text></g><g class="line_21" style="opacity:0;animation:line_21 43.0s step-end infinite"><text x="12.00 19.20 26.40 33.60 40.80 48.00 55.20 62.40 69.60 76.80 84.00 91.20 98.40 105.60 112.80 120.00" y="472" font-size="12" xml:space="preserve"><tspan class="w">C:\Users\wrex1k&gt;</tspan></text></g><g class="lastcursor" style="opacity:0;animation:lastcursor 43.0s step-end infinite"><rect x="127.20" y="461" width="7.2" height="14" fill="#e5e7eb" class="blink"/></g></g></g><g class="t nano" opacity="0">
+    <rect x="0" y="36" width="700" height="394" fill="#0c0c0c"/>
+    <rect x="0" y="36" width="700" height="20" fill="#cccccc"/>
+    <text x="12" y="50" font-size="12" fill="#111111">GNU nano 5.6.1</text>
+    <text x="350" y="50" text-anchor="middle" font-size="12" fill="#111111">about.json</text>
+    <g font-size="12"><text x="12" y="86" xml:space="preserve"><tspan class="w">{</tspan></text>
+      <text x="40.8" y="104" xml:space="preserve"><tspan class="cyan">"username"</tspan><tspan class="w">: </tspan><tspan class="green">["wrex1k"]</tspan><tspan class="w">,</tspan></text>
+      <text x="40.8" y="122" xml:space="preserve"><tspan class="cyan">"role"</tspan><tspan class="w">: </tspan><tspan class="green">["Backend Developer"]</tspan><tspan class="w">,</tspan></text>
+      <text x="40.8" y="140" xml:space="preserve"><tspan class="cyan">"languages"</tspan><tspan class="w">: </tspan><tspan class="green">["Java", "Python", "PHP"]</tspan><tspan class="w">,</tspan></text>
+      <text x="40.8" y="158" xml:space="preserve"><tspan class="cyan">"frameworks"</tspan><tspan class="w">: </tspan><tspan class="green">["Laravel", "Spring Boot", "Thymeleaf"]</tspan><tspan class="w">,</tspan></text>
+      <text x="40.8" y="176" xml:space="preserve"><tspan class="cyan">"frontend"</tspan><tspan class="w">: </tspan><tspan class="green">["React", "Tailwind CSS"]</tspan><tspan class="w">,</tspan></text>
+      <text x="40.8" y="194" xml:space="preserve"><tspan class="cyan">"databases"</tspan><tspan class="w">: </tspan><tspan class="green">["Oracle DB", "PostgreSQL", "MariaDB", "MySQL"]</tspan><tspan class="w">,</tspan></text>
+      <text x="40.8" y="212" xml:space="preserve"><tspan class="cyan">"cloud"</tspan><tspan class="w">: </tspan><tspan class="green">["Oracle Cloud Infrastructure", "AWS Infrastructure"]</tspan><tspan class="w">,</tspan></text>
+      <text x="40.8" y="230" xml:space="preserve"><tspan class="cyan">"tools"</tspan><tspan class="w">: </tspan><tspan class="green">["Postman", "Swagger", "PySide6", "GitHub", "Docker", "Linux", "Git"]</tspan><tspan class="w"></tspan></text>
+      <text x="12" y="248" xml:space="preserve"><tspan class="w">}</tspan></text></g>
+    <g font-size="10.5"><text x="8.00 14.30 20.60 26.90 33.20 39.50 45.80 52.10 58.40 64.70 71.00" y="411" xml:space="preserve" fill="#a1a1aa">^G Get Help</text><text x="124.67 130.97 137.27 143.57 149.87 156.17 162.47 168.77 175.07 181.37 187.67 193.97" y="411" xml:space="preserve" class="t keyO" fill="#a1a1aa">^O Write Out</text><text x="241.33 247.63 253.93 260.23 266.53 272.83 279.13 285.43 291.73 298.03 304.33" y="411" xml:space="preserve" fill="#a1a1aa">^W Where Is</text><text x="358.00 364.30 370.60 376.90 383.20 389.50" y="411" xml:space="preserve" fill="#a1a1aa">^K Cut</text><text x="474.67 480.97 487.27 493.57 499.87 506.17 512.47 518.77 525.07 531.37" y="411" xml:space="preserve" fill="#a1a1aa">^J Justify</text><text x="591.33 597.63 603.93 610.23 616.53 622.83 629.13 635.43 641.73 648.03" y="411" xml:space="preserve" fill="#a1a1aa">^C Cur Pos</text><text x="8.00 14.30 20.60 26.90 33.20 39.50 45.80" y="424" xml:space="preserve" class="t keyX" fill="#a1a1aa">^X Exit</text><text x="124.67 130.97 137.27 143.57 149.87 156.17 162.47 168.77 175.07 181.37 187.67 193.97" y="424" xml:space="preserve" fill="#a1a1aa">^R Read File</text><text x="241.33 247.63 253.93 260.23 266.53 272.83 279.13 285.43 291.73 298.03" y="424" xml:space="preserve" fill="#a1a1aa">^\ Replace</text><text x="358.00 364.30 370.60 376.90 383.20 389.50 395.80 402.10" y="424" xml:space="preserve" fill="#a1a1aa">^U Paste</text><text x="474.67 480.97 487.27 493.57 499.87 506.17 512.47 518.77 525.07 531.37 537.67" y="424" xml:space="preserve" fill="#a1a1aa">^T To Spell</text><text x="591.33 597.63 603.93 610.23 616.53 622.83 629.13 635.43 641.73 648.03 654.33 660.63 666.93" y="424" xml:space="preserve" fill="#a1a1aa">^_ Go To Line</text></g>
+    <g class="t wrote" opacity="0">
+      <rect x="270" y="380" width="160" height="20" rx="3" fill="#cccccc"/>
+      <text x="350" y="394" text-anchor="middle" font-size="12" fill="#111111">[ Wrote 10 lines ]</text>
+    </g>
+  </g>
+
+  <g class="t dialog" opacity="0">
+    <rect x="0" y="376" width="700" height="54" fill="#0c0c0c"/>
+    <rect x="0" y="380" width="700" height="20" fill="#cccccc"/>
+    <g font-size="12"><text x="10.00 17.20 24.40 31.60 38.80 46.00 53.20 60.40 67.60 74.80 82.00 89.20 96.40 103.60 110.80 118.00 125.20 132.40 139.60 146.80 154.00 161.20 168.40 175.60 182.80 190.00 197.20 204.40 211.60 218.80" y="394" xml:space="preserve" fill="#111111">File Name to Write: about.json</text></g>
+    <rect class="blink" x="226.00" y="382" width="7.2" height="15" fill="#111111"/>
+    <g font-size="10.5">
+      <text x="8.00 14.30 20.60 26.90 33.20 39.50 45.80 52.10 58.40" y="411" xml:space="preserve" fill="#a1a1aa">^C Cancel</text>
+      <text x="124.67 130.97 137.27 143.57 149.87 156.17 162.47 168.77 175.07 181.37 187.67 193.97 200.27" y="411" xml:space="preserve" class="t keyEnter" fill="#a1a1aa">Enter Confirm</text>
+    </g>
+  </g>
+
+  </g>
+</g>
+</svg>

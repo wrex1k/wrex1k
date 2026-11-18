@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="320" viewBox="0 0 860 320" role="img" aria-labelledby="title description">
+  <title id="title">WakaTime coding activity</title>
+  <desc id="description">Coding activity for the last seven days</desc>
+  <defs>
+    <linearGradient id="barGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0883E"/>
+      <stop offset="100%" stop-color="#D45F24"/>
+    </linearGradient>
+    <style>
+      .card { fill:#0D1117; stroke:#30363D; stroke-width:1; }
+      .heading { fill:#F0F6FC; font:600 20px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+      .muted { fill:#8B949E; font:400 13px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+      .eyebrow { fill:#8B949E; font:600 11px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; letter-spacing:1px; }
+      .total { fill:#F0F6FC; font:600 34px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+      .language { fill:#E2E8F0; font:500 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+      .duration { fill:#9CA3AF; font:400 12px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+      .percent { fill:#F0883E; font:600 13px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+      .bar-bg { fill:#212936; }
+      .bar { fill:url(#barGradient); }
+      .footer { fill:#64748B; font:400 11px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+      @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+      .row { animation:fadeIn .6s ease-out backwards; }
+    </style>
+  </defs>
+  <rect class="card" x="0.5" y="0.5" width="859" height="319" rx="16"/>
+  <!-- WAKATIME_DATA_START -->
+  <text class="heading" x="28" y="42">Coding activity</text>
+  <text class="muted" x="28" y="64">Last 7 days</text>
+  <text class="muted" x="28" y="125">Waiting for WakaTime data</text>
+  <!-- WAKATIME_DATA_END -->
+  <text class="footer" x="28" y="298">Updated automatically via WakaTime</text>
+</svg>
